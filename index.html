@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        table, th, td {
+          border:1px solid hsla(0, 5%, 7%, 0.852);
+        }
+        </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tharouat HABKA</title>
 </head>
-<body>
-    
+<body> 
+ <!--the navigation bar--> 
     <nav>
         <ul class="navbar">
             <li><a href="#home">Home</a></li>
@@ -15,54 +20,74 @@
             <li><a href="#Resume">Resume</a></li>
             <li><a href="#Contact">Contact</a></li>
         </ul>
-    </nav>
-    
+    </nav> 
     <main>
+    <!--section 1: "Home"--> 
     <section id="Home">
-        <h2>Welcome to my Resume</h2>
-        
+        <h2>Welcome to my Resume</h2>  
     </section>
-
+    <!--section 2 : "About"-->
     <section id="About">
         <h2>About Me</h2>
         <p>I am a passionate person. I have a passion for everything i do i'm always looking for something new to learn because i love being polyvalent and Up-To-Date in every thing that i'm working on.</p>
     </section>
-
+    <!--section 3: "Work"-->
     <section id="Work">
         <h2>My Experience</h2>
         <div class="Work">
             <h3>Financial officer</h3>
             <h5>3B for property development</h5>
             <p>this position allowed me to know how to manage the financial situation of the compagny by accurating records for all daily transactions and preparing balance sheets, processing invoices and updaating internal systems with financial data and reconciling bank statements</p> 
-        <img src="3B.jpeg" alt="3B de promotion immobiliere">
+        <img src="assets/3B.jpeg" alt="3B de promotion immobiliere">
         </div>
         <div class="Work">
             <h3>Account Manager</h3>
             <h5>Standard Sharing Software (GlobalNet)</h5>
-            <p>here i needed to deal with customers, so i learned how to manage this relationships and generating sales of many products</p>
-            <a href="http://www.gnet.tn">Click Me</a>
+            <p>here i needed to deal with customers, so i learned how to manage this relationships and generate sales of many products</p>
+            <a href="http://www.gnet.tn">http://www.gnet.tn</a>
         </div>
         <div class="Work">
             <h3>Account Manager</h3>
             <h5>AON Tunisia (Insurance and Reinsurance Broker)</h5>
-        <video controls> 
-            <source src="Broker.mp4" type="video/mp4">
+        <video width="320" height="240" controls> 
+            <source src="assets/InsuranceBroker.mp4" type="video/mp4">
         </video>
         </div>
     </section>
-
+    <!--section 4 : "Resume"-->
     <section id="Resume">
         <h2>Resume</h2>
+        <table>
+            <tr>
+              <th>Position</th>
+              <th>Company</th>
+              <th>Period</th>
+            </tr>
+            <tr>
+              <td>Financial officer </td>
+              <td>3B for P.D</td>
+              <td>since Sept 2021</td>
+            </tr>
+            <tr>
+              <td>Account manager </td>
+              <td>3S GlobalNet</td>
+              <td>from Oct 2020 to March 2021 </td>
+            </tr>
+            <tr>
+                <td>Account manager </td>
+                <td>AON Tunisia</td>
+                <td>from July 2018 to Aug 2020 </td>
+              </tr>
+          </table>
     </section>
-
+    <!--section 5 : "Contact"--> 
     <section id="Contact">
         <h2>Contact</h2>
         <p> Email: <a href="mailto:habka.tharouat@gmail.com">habka.tharouat@gmail.com</a></p>
-
-    </section>
+    </section>   
     </main>
     <footer>
-        <p>&copy;2023 My Resume</p>
+        <p>&copy;2023 Tharouat's Resume</p>
     </footer>
 </body>
 </html>
