@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-image: url(/assets/background.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;  
+}
+
+main{
+    padding: 40px;
+    margin: 0px;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: capitalize;
+}
+
+a:hover{
+    display: flex;
+    transition: 1s;
+    background: fixed;
+    background-color: rgb(232, 232, 89);
+}
+
+#Home{
+    color: white;
+    margin-top: 80px;
+    padding: 20px;
+    background: cover;
+    height: auto;
+    width: 100%;  
+    border: 3px solid rgb(83, 30, 14);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+h1{
+    color: brown;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+h2{
+    color: rgb(57, 59, 9);
+}
+h5{
+    color: bisque;
+}
+.box{
+    display: grid;
+    align-items: center;
+    gap: 2.2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.resume-box{
+    display: inline-block;
+    padding: 30px 30px;
+    border: 1px solid transparent;
+    border-radius:0.8rem;
+}
+.job{
+    display: grid;
+    padding: 30px 30px;
+    border: 1px solid transparent;
+    border-radius:0.8rem;
+}
+
+#About{
+    color: white;
+    margin-top: 80px;
+    padding: 20px;
+    background: cover;
+    height: auto;
+    width: 100%; 
+    border: 3px solid rgb(83, 30, 14);    
+}
+
+#Work{
+    color: white;
+    margin-top: 80px;
+    padding: 20px;
+    background: cover;
+    height: auto;
+    width: 100%; 
+    border: 3px solid rgb(83, 30, 14);
+}
+#Resume{
+    color: white;
+    margin-top: 80px;
+    padding: 20px;
+    background: cover;
+    height: auto;
+    width: 100%; 
+    border: 3px solid rgb(83, 30, 14);   
+}
+#Contact{
+    color: white;
+    margin-top: 80px;
+    padding: 20px;
+    background: cover;
+    height: auto;
+    width: 100%; 
+    border: 3px solid rgb(83, 30, 14); 
+}
+.text1{
+    display: flex;
+    padding: 30px 30px;
+    border: 2px solid transparent;
+    border-radius:0.8rem;
+    text-align: center;
+
+}
+input, textarea{
+    color: white;
+    
+}
+
+button {
+    background: fixed;
+    background-color: #454b16;
+    color: #d7e656;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer, p{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
