@@ -237,11 +237,11 @@ main{
 }
 
 @media (max-width: 700px) {
-    .brands {
+    .brand {
         margin:1.875rem auto;
     }
 
-    .brands h1 {
+    .brand h1 {
         float: none;
         padding: 0;
         text-align: center;
